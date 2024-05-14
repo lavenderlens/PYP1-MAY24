@@ -1,0 +1,107 @@
+intro 
+_________
+
+Python: named after Monty Python.
+Guido van Rossum, was the author of Python and now holds a position withing Python Org as "Benevolent Dictator'.
+He was huge Monty Python fan. In the official docs avid Monty Python fans will find plenty of references. 
+
+Python: an object-oriented programming language, arguably easier to learn than Java.
+Object-oriented languages:
+Favour data encapsulation in object structures (for Python, the dictionary structure is akin to an object literal in other languages)
+
+Noun/verb analysis/user story: sign up for new account
+
+A User needs to provide personal details. 
+
+Details entered into a system, with account type.
+
+File created for that user and those details.
+
+File added to list(s) of users and populated through many databases.
+
+Go through the user story and identify NOUNS
+
+User 
+Details
+Account 
+User File 
+Users List 
+Databases 
+
+Go through the user story and identify VERBS
+
+Provides
+Enters
+Creates
+Adds
+Populates
+
+Class User
+Props:
+-name
+-address
+-email
+Functions:
++set_name()
++get_name()
++set_address()
++get_address()
++set_address()
++get_address()
+
+Class Account
+Props:
+-IBAN
+-balance
+Functions:
++withdraw()
++deposit()
+
+NOUNS become classes, from classes we make Objects.
+Verbs become functions, which are props of Objects.
+
+Object Oriented, or OO Programming (OOP)
+Objects in OOP are by default mutable.
+They can change their props after instantiation (creation).
+
+In Python, Objects and Classes are the default, go-to data structures.
+
+Variables may and can change datatypes during an application/script.
+Python supports this and is referred to as a Dynamically-typed language.
+
+Python mostly used for either scripting or programming, but not building whole, standalone, deployable apps. 
+Scripting is in the main high-level, interpreted code.
+Programming is more imperatively-written, low-level machine code, often with a compile-time stage.
+Python does both. 
+
+Functional Programming, or FP
+Immutable data structures are preferred, and transformations over modifications.
+Lists and containers are treated AS IF they cannot be changed.
+A change results in a new version returned.
+
+Think of OOP as "Save"
+And FP as "Save As"
+
+NEITHER OO nor FP are exclusive.
+
+Python was re-written between major releases 2 and 3.
+Versions 3 > are breaking changes - NOT backward compatible
+Most of what we do hasn't changed much since version 3
+Best to install fesh from python.org/downloads
+
+Once installed, run in two ways:
+-   1. as a REPL shell (Read Evaluate, Print, Loop), always useful for unit testing as you code bigger Scripts
+-   2. script mode: write and execute longer chunks of code. Code persisted to memory.
+
+Python code, using the standard implementation of CPython (underlying language is C) is interpreted
+(no separate compile time stage to check for syntax errors, 
+no performance optimisation at low-level machine code, 
+but IDE can still use linters with code suggestions)
+
+Other implementations include Jython, which is Java-based, IronPython
+
+EDITORS:
+PyCharm, Spyder, Idle (used to ship with Python install, aka Eric idle)
+Visual Studio, Visual studio Code, IntelliJ IDEA, Webstorm, Eclipse, Sublime, Atom
+
+We use Visual studio Code as it is fully-featured and open source. 
