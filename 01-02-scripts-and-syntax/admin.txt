@@ -1,0 +1,36 @@
+Schedule
+_________
+09:00   start
+11:00   break am 20 mins
+12:30   LUNCH
+13:30   Pm session 1
+15:00   break pm 20 mins
+16:30   Finish
+
+Outline
+_________
+Getting started
+Scripts and syntax (interactive versus script mode, best naming practices)
+Variables and Datatypes
+Operators and Expressions
+Conditions and Loops
+Functions
+Objects and Classes
+Containers in more depth (Lists, Tuples, Sets, Dicts)
+Strings
+Modules and Packages
+Pattern Matching (may swap order with Modules)
+Exception handling
+Files and the Filesystem
+Databases
+
+intial enquiry:
+alanl@stayahead.com
+Cc to:
+alan@alanlavender.com
+
+in event of session interruption
+07442 173078
+
+
+
