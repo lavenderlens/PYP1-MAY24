@@ -40,3 +40,4 @@ if __name__ == '__main__':
     print("You only see me if you run the module")
     print(add(1,1))
     print(add("x",1))
+# this code will now NOT run in scripts that import this module.

@@ -1,0 +1,67 @@
+Functions
+In this exercise you will create a module and a script. The module will have 2 functions.
+The first function will create and return a dating profile based on age and a list of
+hobbies. The second function will accept two dating profiles and on comparing them will
+return a number representing the quality of the match. The script will call the first
+function in your module to create two dating profiles, and then call the second function
+to determine the quality of the match. The number returned by the second function will
+be printed to the console.
+1. Create a module named ch6_profile_matcher.py.
+2. Declare a function named build_profile that builds and returns a dating profile.
+Note that a dating profile will be a dictionary that looks something like this:
+p1 = {
+"age": 25,
+"hobbies": ["reading", "eating out", "travelling"]
+}
+3. Inside the build_profile function…
+a. Declare a variable named profile and assign it a dictionary as follows:
+profile = {
+"age": 0,
+"hobbies": []
+}
+b. Prompt the user to input the age of the profile and capture it in a variable
+named p_age.
+c. Convert p_age to an int.
+d. Assign p_age to profile["age"].
+e. Code an infinite loop as follows…
+f. Prompt the user to input a hobby and capture it in a variable named hobby.
+g. Append the hobby to profile’s list of hobbies (more about appending to lists
+later in the course).
+profile["hobbies"].append(hobby)
+h. Prompt the user to input y to input more hobbies, or n to stop, and capture it
+in a variable named more.
+i. If more is n, break out of the loop.
+4. Finish the function by adding a return statement to return the profile dictionary.
+5. Declare a function named match that will accepts two dating profiles .
+6. Inside the match function…
+a. Declare a variable named match_quality and assign it 0 (zero).
+b. If the first profile's age is within five years of the second profile's age,
+increment the match_quality variable by one.
+c. For each hobby in the first profile's list of hobbies, if there is a matching one
+in the second profile's list of hobbies, increment the match_quality variable by
+one.
+d. Finish the function by adding a return statement to return match_quality.
+7. Create a script named ch6_functions.py.
+8. Import the build_profile and match function from the ch6_profile_matcher
+module as follows:
+from ch6_profile_matcher import build_profile, match
+9. Call the build_profile function and assign the result to a variable called profile1.
+10. Call the build_profile function again and assign the result to a variable called
+profile2.
+11. Call the match function, passing profile1 and profile2 as arguments, and capture
+the return value in a variable named match_quality.
+12. Print the match_quality variable to the console.
+On execution of ch6_functions.py the output will be as or similar to that shown below:
+Create 1st profile
+Please enter age: 25
+Enter a hobby: Reading
+More hobbies? (y/n):y
+Enter a hobby: Cinema
+More hobbies? (y/n):n
+Create 2nd profile
+Please enter age: 29
+Enter a hobby: Reading
+More hobbies? (y/n):y
+Enter a hobby: Walking
+More hobbies? (y/n):n
+Match Quality: 2
