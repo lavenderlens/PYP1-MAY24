@@ -1,0 +1,25 @@
+Lists
+In this exercise you will create a script that emulates a sporting league table. Teams will
+move up and down the table, some will be relegated and some will be promoted. The
+team at index 0 (zero) is to be considered on top of the table.
+1. Create a script named ch8_lists.py.
+2. Declare a variable named table and assign it a list of teams (strings) as follows:
+Bath, Derby, Gloucester, Lancaster, Newcastle, Plymouth, Salford, and Wakefield.
+3. Move Newcastle into 3rd position (remove and then insert).
+4. Move Derby into 4th position.
+5. Relegate (remove) Salford.
+6. Promote (append) Canterbury at the bottom of the table.
+7. In one statement, relegate Plymouth and promote York (update).
+8. Extract the top two teams into a new list named to_play_in_europe.
+9. If Newcastle is to play in Europe, print Newcastle to play in Europe to the
+console.
+10. Code a loop that iterates over the table.
+11. Inside the loop print each team to the console. The output should be as follows:
+Bath
+Newcastle
+Gloucester
+Derby
+Lancaster
+York
+Wakefield
+Canterbury

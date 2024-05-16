@@ -1,0 +1,23 @@
+Objects
+In this exercise you will create a class to model a Training Course object. The class will
+contain both data and method attributes. The data attributes will consist of a course title,
+a duration ( in days ), a course price and a list of delegate names. The Training Course
+object will also require methods: a method to add a name to the delegate list and a
+method to display the total revenue generated for the Training Course object.
+1. Create a script called ch7_training_course.py.
+2. Create a class called TrainingCourse
+3. Add a dunder __init__ method to ensure that a TrainingCourse object is created
+with the following data attributes: title, duration, pricePerPerson and an empty list
+called delegates.
+4. Add a method called addDelegates that will accept a delegate name as a parameter
+and then append it to the delegates list i.e. delegates.append(name).
+5. Add method called getTotalRevenue which will return the total revenue generated for
+the Training Course object i.e. number of delegates * pricePerPerson.
+6. Create a TrainingCourse object with the data attributes set to the following values:
+title: Python Programming 1
+duration: 4
+price per person: 1600
+delegates: [ ]
+7. Use the addDelegate method to assign some names to the Training Course
+object’s delegates list.
+8. Display to the console the total revenue generated for the TrainingCourse object.
