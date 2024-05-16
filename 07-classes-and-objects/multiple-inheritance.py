@@ -35,7 +35,3 @@ print(child1.cellular_composition)
 print(child1.water_content)
 print(child1.head_size)
 print(child1.BMI)
-
-
-# print(child1.cellular_composition)
-# print(child1.water_content)
