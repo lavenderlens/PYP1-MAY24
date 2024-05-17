@@ -1,0 +1,11 @@
+Exception Handling
+------------------
+Exception: an error; some exceptional situation; something that causes the interpreter to crash
+Compilation error: a syntax error in the code
+Logic error: syntactically correct code that doesn't work as expected
+Exception handling deals with errors that are not of the devs making but are nonetheless anticipatable
+Exception handling is NOT for compilation or logic errors
+We may choose to create our own custom exceptions and raise them at strategic points in our code
+This is not as strange as it may sound: better that an object, say, with null/None fields is NOT created
+For more, beautiful clear explanation:
+https://martinxpn.medium.com/custom-exceptions-in-python-creating-custom-exceptions-59-100-days-of-python-4f26de8e851d#
