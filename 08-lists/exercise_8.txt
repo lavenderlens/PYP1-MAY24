@@ -1,4 +1,14 @@
 Lists
+
+YOU WILL NEED THE FOLLOWING METHODS:
+list.remove
+list.insert
+list.append
+list.index
+slices
+the in operator
+for loop
+
 In this exercise you will create a script that emulates a sporting league table. Teams will
 move up and down the table, some will be relegated and some will be promoted. The
 team at index 0 (zero) is to be considered on top of the table.
