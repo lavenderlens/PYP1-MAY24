@@ -1,0 +1,11 @@
+Pattern Matching
+________________
+
+Based on the PCRE standard (Perl-Compatible Regular Expressions)
+pattern matching is the testing of string to determine if it matches some deifned pattern of characters
+For example, an email address follows a pattern: n characters followed by an @ followed by n characters 
+{followed by a . character, followed by n characters} X one or many times
+A regular expression is a series of special characters that describes the patternThere arev many online tools to help write our patterns
+BEFORE implementing them in language-specific syntax
+such as regex101.com and regexr.com
+The re module in standard Python libs may be used to implement pattern matching in Python

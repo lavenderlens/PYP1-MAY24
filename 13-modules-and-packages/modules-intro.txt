@@ -1,0 +1,33 @@
+Modules and packages
+____________________
+
+modules are scripts imported for use in other scriptsin this way, core struxtures like functions and classes
+need not be tightly coupled to the code that calls them
+and may also be re-used by other caller code
+
+packages are collections of modules (OR sub-packages)
+a package folder has a file in named __init__.py 
+this initially confusing naming enables code to be run from the file whenever the package is imported
+need not have anything in the __init__ file but should be there
+
+there is a variant without the __init__ file
+this is called a namespace package
+
+there are 4 broad categories of modules
+
+1. modules ("batteries included") - work "straight out the box"
+already included in the standard Python install, eg str, 
+imported by default
+
+2. modules already included in a standard Python install
+but you must import them, eg. math
+
+for further example you didn't need to import builtins for len(), min(), max() etc
+but math, random, sqlite3, need explicit imports
+
+3. modules you install typically from PYPI public repo using PYPI
+https://pypi.org 
+for data science, the anaconda distribution is standard/very popular
+https://docs.conda.io/en/latest
+
+4. modules YOU create, and, optionally, open source
